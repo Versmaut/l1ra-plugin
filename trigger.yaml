@@ -1,0 +1,34 @@
+openapi: 3.1.0
+info:
+  title: Start Make Scenario
+  version: 1.0.0
+paths:
+  /gjoqtbko51y32l4clfqklo7mmni7wpvw:
+    post:
+      summary: Start het Make-scenario voor vastgoedcopy
+      operationId: startScenario
+      security:
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                trigger:
+                  type: string
+                  example: start_scenario
+      responses:
+        '200':
+          description: Scenario gestart
+        '401':
+          description: Unauthorized
+        '500':
+          description: Serverfout
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
