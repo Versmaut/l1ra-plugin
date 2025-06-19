@@ -3,6 +3,8 @@ info:
   title: SheetbestWriter
   description: Voeg automatisch gegenereerde vastgoedcopy toe aan Google Sheets via Sheet.best.
   version: '1.0'
+servers:
+  - url: https://sheet.best/api
 paths:
   /sheets/e45eb38c-3e4c-4603-87fc-0f01c6f3bc65:
     post:
@@ -138,3 +140,4 @@ paths:
       responses:
         '200':
           description: Succesvol toegevoegd aan Sheet.best
+
