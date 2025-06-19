@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Vastgoed Writer",
+  "name_for_model": "vastgoed_writer",
+  "description_for_model": "Voegt gegenereerde vastgoedcopy toe aan een Google Sheet via Sheet.best.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://jouwdomein.com/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://sheet.best/favicon.ico",
+  "contact_email": "louis.vermaut@gmail.com",
+  "legal_info_url": "https://sheet.best/legal"
+}

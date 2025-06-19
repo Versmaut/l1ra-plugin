@@ -1,0 +1,140 @@
+openapi: 3.0.1
+info:
+  title: SheetbestWriter
+  description: Voeg automatisch gegenereerde vastgoedcopy toe aan Google Sheets via Sheet.best.
+  version: '1.0'
+paths:
+  /sheets/e45eb38c-3e4c-4603-87fc-0f01c6f3bc65:
+    post:
+      summary: Voeg vastgoedcopy toe
+      operationId: addVastgoedRow
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                FB_1A_Headline:
+                  type: string
+                FB_1A_PrimaryText:
+                  type: string
+                FB_1A_Description:
+                  type: string
+                FB_1A_CTA:
+                  type: string
+                FB_1B_Headline:
+                  type: string
+                FB_1B_PrimaryText:
+                  type: string
+                FB_1B_Description:
+                  type: string
+                FB_1B_CTA:
+                  type: string
+                FB_2A_Headline:
+                  type: string
+                FB_2A_PrimaryText:
+                  type: string
+                FB_2A_Description:
+                  type: string
+                FB_2A_CTA:
+                  type: string
+                FB_2B_Headline:
+                  type: string
+                FB_2B_PrimaryText:
+                  type: string
+                FB_2B_Description:
+                  type: string
+                FB_2B_CTA:
+                  type: string
+                FB_3A_Headline:
+                  type: string
+                FB_3A_PrimaryText:
+                  type: string
+                FB_3A_Description:
+                  type: string
+                FB_3A_CTA:
+                  type: string
+                FB_3B_Headline:
+                  type: string
+                FB_3B_PrimaryText:
+                  type: string
+                FB_3B_Description:
+                  type: string
+                FB_3B_CTA:
+                  type: string
+                Google_Headline_1:
+                  type: string
+                Google_Headline_2:
+                  type: string
+                Google_Headline_3:
+                  type: string
+                Google_Headline_4:
+                  type: string
+                Google_Headline_5:
+                  type: string
+                Google_Headline_6:
+                  type: string
+                Google_Headline_7:
+                  type: string
+                Google_Headline_8:
+                  type: string
+                Google_Headline_9:
+                  type: string
+                Google_Headline_10:
+                  type: string
+                Google_Headline_11:
+                  type: string
+                Google_Headline_12:
+                  type: string
+                Google_Headline_13:
+                  type: string
+                Google_Headline_14:
+                  type: string
+                Google_Headline_15:
+                  type: string
+                Google_Description_1:
+                  type: string
+                Google_Description_2:
+                  type: string
+                Email_Onderwerpregel:
+                  type: string
+                Email_Headertekst:
+                  type: string
+                Email_Intro:
+                  type: string
+                Email_FAB_1:
+                  type: string
+                Email_FAB_2:
+                  type: string
+                Email_FAB_3:
+                  type: string
+                Email_SocialProof:
+                  type: string
+                Email_CTA_Tekst:
+                  type: string
+                Email_CTA_Button:
+                  type: string
+                LP_HeroHeadline:
+                  type: string
+                LP_Subheadline:
+                  type: string
+                LP_FAB_1:
+                  type: string
+                LP_FAB_2:
+                  type: string
+                LP_FAB_3:
+                  type: string
+                LP_Urgentie:
+                  type: string
+                LP_SocialProof:
+                  type: string
+                LP_CTA_Boven:
+                  type: string
+                LP_CTA_Midden:
+                  type: string
+                LP_CTA_Onder:
+                  type: string
+      responses:
+        '200':
+          description: Succesvol toegevoegd aan Sheet.best
