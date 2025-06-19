@@ -8,7 +8,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://jouwdomein.com/openapi.yaml",
+    "url": ""url": "https://versmaut.github.io/l1ra-plugin/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "https://sheet.best/favicon.ico",
