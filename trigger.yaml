@@ -2,8 +2,10 @@ openapi: 3.1.0
 info:
   title: Start Make Scenario
   version: 1.0.0
+servers:
+  - url: https://hook.eu2.make.com
 paths:
-  /gjoqtbko51y32l4clfqklo7mmni7wpvw:
+  /y5ph88d26qy21ur4iogeqfmef71cqjxu:
     post:
       summary: Start het Make-scenario voor vastgoedcopy
       operationId: startScenario
@@ -32,3 +34,4 @@ components:
       type: apiKey
       in: header
       name: x-api-key
+
