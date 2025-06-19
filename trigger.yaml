@@ -5,7 +5,7 @@ info:
 servers:
   - url: https://hook.eu2.make.com
 paths:
-  /y5ph88d26qy21ur4iogeqfmef71cqjxu:
+  /gjoqtbko51y32l4clfqklo7mmni7wpvw:
     post:
       summary: Start het Make-scenario voor vastgoedcopy
       operationId: startScenario
@@ -34,4 +34,4 @@ components:
       type: apiKey
       in: header
       name: x-api-key
-
+  schemas: {}
